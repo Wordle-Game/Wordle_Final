@@ -169,7 +169,7 @@
                         const tryCountDisplay = document.createElement('span');//새 span요소로 업데이트 된 시도횟수 표시
                         const preTryCountDisplay = document.querySelector('#tryCountDisplay');//위의 시도횟수 id를 기존요소 변수에 할당
 
-                        if (preTryCountDisplay) {//ID가 attemptCountDisplay인 기존 요소 확인
+                        if (preTryCountDisplay) {//if문으로 true참 값을 갖는지 확인하여서, ID가 preTryCountDisplay인 기존 요소 확인
                             preTryCountDisplay.remove();//존재하는 경우 remove() 메서드로 제거
                         }
 
